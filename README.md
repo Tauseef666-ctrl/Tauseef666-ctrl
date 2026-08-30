@@ -49,7 +49,7 @@
 </p>
 
 <p align="center">
-  🔨 **building** 3D & learning apps &nbsp;·&nbsp; 🧠 **learning** GenAI & prompt engineering &nbsp;·&nbsp; 🧪 **exploring** 3D web & automation
+  🔨 <b>building</b> 3D & learning apps &nbsp;·&nbsp; 🧠 <b>learning</b> GenAI & prompt engineering &nbsp;·&nbsp; 🧪 <b>exploring</b> 3D web & automation
 </p>
 
 <br>
