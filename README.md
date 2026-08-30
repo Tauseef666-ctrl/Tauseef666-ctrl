@@ -155,15 +155,31 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Tauseef666-ctrl&show_icons=true&hide_border=true&bg_color=0b0d10&title_color=7c6cff&icon_color=4cc9d8&text_color=e6e9ef">
-    <img src="https://github-readme-stats.vercel.app/api?username=Tauseef666-ctrl&show_icons=true&hide_border=true&bg_color=ffffff&title_color=7c6cff&icon_color=0891b2&text_color=334155" alt="GitHub stats" width="440">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tauseef666-ctrl&theme=github_dark">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tauseef666-ctrl&theme=default" alt="Contribution graph" width="720">
   </picture>
+</p>
 
+<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Tauseef666-ctrl&layout=compact&langs_count=8&hide_border=true&bg_color=0b0d10&title_color=7c6cff&text_color=8b93a1">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tauseef666-ctrl&layout=compact&langs_count=8&hide_border=true&bg_color=ffffff&title_color=7c6cff&text_color=334155" alt="Top languages" width="380">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-language-chart-dark.svg">
+    <img src="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-language-chart-light.svg" alt="Top languages" width="720">
   </picture>
+</p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tauseef666-ctrl&theme=github_dark">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tauseef666-ctrl&theme=default" alt="GitHub stats" width="380">
+  </picture>
+  &nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tauseef666-ctrl&theme=github_dark">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tauseef666-ctrl&theme=default" alt="Productive time" width="380">
+  </picture>
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Tauseef666-ctrl&hide_border=true&background=0b0d10&ring=39a982&fire=4cc9d8&currStreakNum=e6e9ef&sideNums=e6e9ef&currStreakLabel=7c6cff&sideLabels=8b93a1&dates=8b93a1">
     <img src="https://streak-stats.demolab.com/?user=Tauseef666-ctrl&hide_border=true&background=ffffff&ring=059669&fire=0891b2&currStreakNum=334155&sideNums=334155&currStreakLabel=7c6cff&sideLabels=475569&dates=94a3b8" alt="Contribution streak" width="440">
