@@ -1,0 +1,65 @@
+name: Refresh Profile Assets
+
+on:
+  schedule:
+    - cron: '15 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          fetch-depth: 0
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            github-contribution-snake-dark.svg?palette=github-dark&color_snake=%234cc9d8&color_dots=%23111a18,%2316325d,%231d5b48,%23278263,%2339a982
+            github-contribution-snake-light.svg?color_snake=%230e7490&color_dots=%23ecf3f1,%23cfe8df,%239fd6c3,%2358a88b,%232e7d63
+
+      - name: Snapshot stats and skill icons
+        run: |
+          set -euo pipefail
+          U=Tauseef666-ctrl
+          C="https://github-profile-summary-cards.vercel.app/api/cards"
+          S="https://streak-stats.demolab.com/?user=$U"
+          K="https://skillicons.dev/icons?i=ts,js,py,java,kotlin,html,css,bash,react,nextjs,vite,threejs,tauri,nodejs,git,github,vercel,netlify&perline=9"
+
+          curl -fsSL --retry 3 "$C/profile-details?username=$U&theme=github_dark" -o github-profile-details-dark.svg
+          curl -fsSL --retry 3 "$C/profile-details?username=$U&theme=default" -o github-profile-details-light.svg
+          curl -fsSL --retry 3 "$C/stats?username=$U&theme=github_dark" -o github-stats-dark.svg
+          curl -fsSL --retry 3 "$C/stats?username=$U&theme=default" -o github-stats-light.svg
+          curl -fsSL --retry 3 "$C/productive-time?username=$U&theme=github_dark" -o github-productive-time-dark.svg
+          curl -fsSL --retry 3 "$C/productive-time?username=$U&theme=default" -o github-productive-time-light.svg
+
+          curl -fsSL --retry 3 "$S&hide_border=true&background=0b0d10&ring=39a982&fire=4cc9d8&currStreakNum=e6e9ef&sideNums=e6e9ef&currStreakLabel=7c6cff&sideLabels=8b93a1&dates=8b93a1" -o github-streak-dark.svg
+          curl -fsSL --retry 3 "$S&hide_border=true&background=ffffff&ring=059669&fire=0891b2&currStreakNum=334155&sideNums=334155&currStreakLabel=7c6cff&sideLabels=475569&dates=94a3b8" -o github-streak-light.svg
+
+          curl -fsSL --retry 3 "$K&theme=dark" -o github-skill-icons-dark.png
+          curl -fsSL --retry 3 "$K&theme=light" -o github-skill-icons-light.png
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: refresh profile assets [skip ci]"
+          git push origin output
