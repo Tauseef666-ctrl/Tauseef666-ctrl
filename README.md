@@ -46,8 +46,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-skill-icons-dark.png">
-    <img src="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-skill-icons-light.png" alt="TypeScript JavaScript Python Java Kotlin HTML CSS Bash React Next.js Vite Three.js Tauri Node.js Git GitHub Vercel Netlify" height="96">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-skill-icons-dark.svg">
+    <img src="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-skill-icons-light.svg" alt="TypeScript JavaScript Python Java Kotlin HTML CSS Bash React Next.js Vite Three.js Tauri Node.js Git GitHub Vercel Netlify" height="96">
   </picture>
 </p>
 
