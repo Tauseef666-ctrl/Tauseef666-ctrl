@@ -49,8 +49,8 @@ jobs:
           curl -fsSL --retry 3 "$S&hide_border=true&background=0b0d10&ring=39a982&fire=4cc9d8&currStreakNum=e6e9ef&sideNums=e6e9ef&currStreakLabel=7c6cff&sideLabels=8b93a1&dates=8b93a1" -o github-streak-dark.svg
           curl -fsSL --retry 3 "$S&hide_border=true&background=ffffff&ring=059669&fire=0891b2&currStreakNum=334155&sideNums=334155&currStreakLabel=7c6cff&sideLabels=475569&dates=94a3b8" -o github-streak-light.svg
 
-          curl -fsSL --retry 3 "$K&theme=dark" -o github-skill-icons-dark.png
-          curl -fsSL --retry 3 "$K&theme=light" -o github-skill-icons-light.png
+          curl -fsSL --retry 3 "$K&theme=dark" -o github-skill-icons-dark.svg
+          curl -fsSL --retry 3 "$K&theme=light" -o github-skill-icons-light.svg
 
       - name: Commit and push
         run: |
