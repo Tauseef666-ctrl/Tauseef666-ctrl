@@ -1,0 +1,50 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='292' viewBox='0 0 720 292'>
+<g>
+<circle cx='28' cy='40' r='6' fill='#3178c6'/>
+<text x='42' y='45' fill='#1f2937' font-family='Segoe UI, Arial, sans-serif' font-size='15' font-weight='600'>TypeScript</text>
+<rect x='200' y='31' width='500' height='14' rx='7' fill='#3178c6' opacity='0.9'/>
+<text x='706' y='45' fill='#6b7280' font-family='Segoe UI, Arial, sans-serif' font-size='15' text-anchor='end'>49.3%</text>
+</g>
+<g>
+<circle cx='28' cy='72' r='6' fill='#e34c26'/>
+<text x='42' y='77' fill='#1f2937' font-family='Segoe UI, Arial, sans-serif' font-size='15' font-weight='600'>HTML</text>
+<rect x='200' y='63' width='438' height='14' rx='7' fill='#e34c26' opacity='0.9'/>
+<text x='706' y='77' fill='#6b7280' font-family='Segoe UI, Arial, sans-serif' font-size='15' text-anchor='end'>43.2%</text>
+</g>
+<g>
+<circle cx='28' cy='104' r='6' fill='#663399'/>
+<text x='42' y='109' fill='#1f2937' font-family='Segoe UI, Arial, sans-serif' font-size='15' font-weight='600'>CSS</text>
+<rect x='200' y='95' width='34' height='14' rx='7' fill='#663399' opacity='0.9'/>
+<text x='706' y='109' fill='#6b7280' font-family='Segoe UI, Arial, sans-serif' font-size='15' text-anchor='end'>3.4%</text>
+</g>
+<g>
+<circle cx='28' cy='136' r='6' fill='#7f52ff'/>
+<text x='42' y='141' fill='#1f2937' font-family='Segoe UI, Arial, sans-serif' font-size='15' font-weight='600'>Kotlin</text>
+<rect x='200' y='127' width='21' height='14' rx='7' fill='#7f52ff' opacity='0.9'/>
+<text x='706' y='141' fill='#6b7280' font-family='Segoe UI, Arial, sans-serif' font-size='15' text-anchor='end'>2.1%</text>
+</g>
+<g>
+<circle cx='28' cy='168' r='6' fill='#f89820'/>
+<text x='42' y='173' fill='#1f2937' font-family='Segoe UI, Arial, sans-serif' font-size='15' font-weight='600'>Java</text>
+<rect x='200' y='159' width='12' height='14' rx='7' fill='#f89820' opacity='0.9'/>
+<text x='706' y='173' fill='#6b7280' font-family='Segoe UI, Arial, sans-serif' font-size='15' text-anchor='end'>1.2%</text>
+</g>
+<g>
+<circle cx='28' cy='200' r='6' fill='#f7df1e'/>
+<text x='42' y='205' fill='#1f2937' font-family='Segoe UI, Arial, sans-serif' font-size='15' font-weight='600'>JavaScript</text>
+<rect x='200' y='191' width='6' height='14' rx='7' fill='#f7df1e' opacity='0.9'/>
+<text x='706' y='205' fill='#6b7280' font-family='Segoe UI, Arial, sans-serif' font-size='15' text-anchor='end'>0.6%</text>
+</g>
+<g>
+<circle cx='28' cy='232' r='6' fill='#3776ab'/>
+<text x='42' y='237' fill='#1f2937' font-family='Segoe UI, Arial, sans-serif' font-size='15' font-weight='600'>Python</text>
+<rect x='200' y='223' width='4' height='14' rx='7' fill='#3776ab' opacity='0.9'/>
+<text x='706' y='237' fill='#6b7280' font-family='Segoe UI, Arial, sans-serif' font-size='15' text-anchor='end'>0.1%</text>
+</g>
+<g>
+<circle cx='28' cy='264' r='6' fill='#89e051'/>
+<text x='42' y='269' fill='#1f2937' font-family='Segoe UI, Arial, sans-serif' font-size='15' font-weight='600'>Shell</text>
+<rect x='200' y='255' width='4' height='14' rx='7' fill='#89e051' opacity='0.9'/>
+<text x='706' y='269' fill='#6b7280' font-family='Segoe UI, Arial, sans-serif' font-size='15' text-anchor='end'>0.1%</text>
+</g>
+</svg>

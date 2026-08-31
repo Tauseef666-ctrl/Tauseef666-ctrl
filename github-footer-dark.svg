@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="64" viewBox="0 0 720 64">
+<style>@keyframes eq{0%,100%{transform:scaleY(.25)}50%{transform:scaleY(1)}}.b{fill:#7c6cff}</style>
+<style>.b1{animation:eq 1.0s ease-in-out infinite;transform-box:fill-box;transform-origin:center bottom}.b2{animation:eq 1.3s ease-in-out infinite .15s;transform-box:fill-box;transform-origin:center bottom}.b3{animation:eq 1.1s ease-in-out infinite;transform-box:fill-box;transform-origin:center bottom}.b4{animation:eq 1.5s ease-in-out infinite .3s;transform-box:fill-box;transform-origin:center bottom}.b5{animation:eq 1.2s ease-in-out infinite .1s;transform-box:fill-box;transform-origin:center bottom}</style>
+<style>@keyframes sw{0%{transform:translateX(-120px)}100%{transform:translateX(760px)}}.sw{animation:sw 6s linear infinite}</style>
+<rect x="1" y="1" width="718" height="62" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<rect class="b1" x="52" y="24" width="8" height="22" rx="3" fill="#7c6cff"/>
+<rect class="b2" x="70" y="24" width="8" height="22" rx="3" fill="#4cc9d8"/>
+<rect class="b3" x="88" y="24" width="8" height="22" rx="3" fill="#39a982"/>
+<rect class="b4" x="106" y="24" width="8" height="22" rx="3" fill="#4cc9d8"/>
+<rect class="b5" x="124" y="24" width="8" height="22" rx="3" fill="#7c6cff"/>
+<text x="300" y="30" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" fill="#e6e9ef">Learn · Build · Experiment · Contribute · Repeat</text>
+<text x="300" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8b93a1">a live developer dashboard — refreshed nightly</text>
+<defs><linearGradient id="fsw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7c6cff" stop-opacity="0"/><stop offset=".5" stop-color="#4cc9d8"/><stop offset="1" stop-color="#39a982" stop-opacity="0"/></linearGradient></defs>
+<g><rect class="sw" x="0" y="3" width="120" height="2" rx="1" fill="url(#fsw)"/></g>
+</svg>
