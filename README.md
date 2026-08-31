@@ -45,7 +45,10 @@
 ## Languages & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,java,kotlin,html,css,bash,react,nextjs,vite,threejs,tauri,nodejs,git,github,vercel,netlify&perline=9" alt="TypeScript JavaScript Python Java Kotlin HTML CSS Bash React Next.js Vite Three.js Tauri Node.js Git GitHub Vercel Netlify" height="96">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-skill-icons-dark.png">
+    <img src="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-skill-icons-light.png" alt="TypeScript JavaScript Python Java Kotlin HTML CSS Bash React Next.js Vite Three.js Tauri Node.js Git GitHub Vercel Netlify" height="96">
+  </picture>
 </p>
 
 <p align="center">
@@ -86,8 +89,8 @@ More live experiments → [EcoScore](https://economics-beta.vercel.app) · [Ninj
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tauseef666-ctrl&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tauseef666-ctrl&theme=default" alt="Contribution graph" width="700">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-profile-details-dark.svg">
+    <img src="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-profile-details-light.svg" alt="Contribution graph" width="700">
   </picture>
 </p>
 
@@ -100,20 +103,20 @@ More live experiments → [EcoScore](https://economics-beta.vercel.app) · [Ninj
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tauseef666-ctrl&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tauseef666-ctrl&theme=default" alt="GitHub stats" width="340">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-stats-dark.svg">
+    <img src="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-stats-light.svg" alt="GitHub stats" width="340">
   </picture>
   &nbsp;&nbsp;&nbsp;
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tauseef666-ctrl&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tauseef666-ctrl&theme=default" alt="Productive time" width="340">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-productive-time-dark.svg">
+    <img src="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-productive-time-light.svg" alt="Productive time" width="340">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Tauseef666-ctrl&hide_border=true&background=0b0d10&ring=39a982&fire=4cc9d8&currStreakNum=e6e9ef&sideNums=e6e9ef&currStreakLabel=7c6cff&sideLabels=8b93a1&dates=8b93a1">
-    <img src="https://streak-stats.demolab.com/?user=Tauseef666-ctrl&hide_border=true&background=ffffff&ring=059669&fire=0891b2&currStreakNum=334155&sideNums=334155&currStreakLabel=7c6cff&sideLabels=475569&dates=94a3b8" alt="Contribution streak" width="420">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-streak-dark.svg">
+    <img src="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-streak-light.svg" alt="Contribution streak" width="420">
   </picture>
 </p>
 
