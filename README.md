@@ -47,7 +47,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-skill-icons-dark.svg">
-    <img src="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-skill-icons-light.svg" alt="TypeScript JavaScript Python Java Kotlin HTML CSS Bash React Next.js Vite Three.js Tauri Node.js Git GitHub Vercel Netlify" height="96">
+    <img src="https://raw.githubusercontent.com/Tauseef666-ctrl/Tauseef666-ctrl/output/github-skill-icons-light.svg" alt="TypeScript JavaScript Python Java Kotlin HTML CSS Bash React Next.js Vite Tailwind CSS Three.js Tauri Node.js Android Studio Git GitHub Vercel Netlify" height="96">
   </picture>
 </p>
 
@@ -66,6 +66,10 @@
 - **📚 T2S Study Together** — group study · quizzes · AI chat · focus timer — `React Native` — [repo](https://github.com/Tauseef666-ctrl/T2S)
 - **⚡ Evolve** — gamified todo app · XP, levels & streaks — `Kotlin` — [repo](https://github.com/Tauseef666-ctrl/evolve)
 - **⌨️ RopeTyper** — typing game · WPM & accuracy challenges — `Java` — [repo](https://github.com/Tauseef666-ctrl/ropetyper)
+- **📖 Noorul-Quran** — read · listen · reflect · full Quran reader for web & Android — `React · Vite · Capacitor` — [repo](https://github.com/Tauseef666-ctrl/Noorul-Quran) · [live](https://noorul-quran-iota.vercel.app)
+- **📚 B.Sc. Companion** — mobile-first B.Sc. study companion — `Next.js 16 · Tailwind CSS v4` — [repo](https://github.com/Tauseef666-ctrl/bsc-companion) · [live](https://bsc-pi.vercel.app)
+- **📝 CAT Command** — adaptive CAT prep that tells you what to do next — `Next.js · TypeScript` — [repo](https://github.com/Tauseef666-ctrl/CAT-PREP) · [live](https://cat-prep-omega.vercel.app)
+- **🎓 BTEUP CSE Hub** — 2nd-year lateral study companion · syllabus-mapped — `React · Vite · Tailwind CSS` — [repo](https://github.com/Tauseef666-ctrl/2nd-year-lateral) · [live](https://2nd-year-lateral.vercel.app)
 - **🎨 Portfolio** — interactive 3D developer portfolio — `Three.js · R3F` — [live](https://tauseef-khan.is-a.dev)
 
 More live experiments → [EcoScore](https://economics-beta.vercel.app) · [Ninja Slice](https://fruitninja-by.netlify.app) · [CSE Prep](https://btech-prep.netlify.app)

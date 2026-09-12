@@ -37,7 +37,7 @@ jobs:
           U=Tauseef666-ctrl
           C="https://github-profile-summary-cards.vercel.app/api/cards"
           S="https://streak-stats.demolab.com/?user=$U"
-          K="https://skillicons.dev/icons?i=ts,js,py,java,kotlin,html,css,bash,react,nextjs,vite,threejs,tauri,nodejs,git,github,vercel,netlify&perline=9"
+          K="https://skillicons.dev/icons?i=ts,js,py,java,kotlin,html,css,bash,react,nextjs,vite,tailwind,threejs,tauri,nodejs,androidstudio,git,github,vercel,netlify&perline=10"
 
           curl -fsSL --retry 3 "$C/profile-details?username=$U&theme=github_dark" -o github-profile-details-dark.svg
           curl -fsSL --retry 3 "$C/profile-details?username=$U&theme=default" -o github-profile-details-light.svg
